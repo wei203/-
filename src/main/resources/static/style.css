@@ -1,0 +1,47 @@
+body {
+    margin: 0; /* 导航栏外边距 */
+}
+
+nav {
+    display: flex; /* 导航栏水平排列 */
+    align-items: center; /* 导航栏垂直居中 */
+    background-color: #f0f0f0; /* 导航栏背景颜色 */
+    padding: 10px 20px; /* 导航栏内边距 */
+}
+
+nav h2 {
+    margin: 0; /* 导航栏标题外边距 */
+}
+
+nav h2 a {
+    text-decoration: none; /* 导航栏标题链接无下划线 */
+    color: black; /* 导航栏标题链接颜色 */
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e0e0e0;
+}
+
+.nav-links a:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
