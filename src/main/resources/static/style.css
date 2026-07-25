@@ -6,7 +6,7 @@ nav {
     display: flex; /* 导航栏水平排列 */
     align-items: center; /* 导航栏垂直居中 */
     background-color: #f0f0f0; /* 导航栏背景颜色 */
-    padding: 10px 20px; /* 导航栏内边距 */
+    padding: 15px 20px; /* 导航栏内边距 */
 }
 
 nav h2 {
@@ -24,7 +24,7 @@ nav h2 a {
     display: flex;
     gap: 10px; 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 .nav-links a {
@@ -44,4 +44,5 @@ nav h2 a {
 .nav-links a:active {
     transform: translateY(1px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white; /* 鼠标按下文字渐变为白色 */
 }
