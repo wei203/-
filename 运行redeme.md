@@ -3,6 +3,10 @@ mvn spring-boot:run
 访问
 http://localhost:8080/
 
+结束进程
+ctrl + c
+命令行结束进程
+kill -9 8080
 
 更新github
 git add.<!-- 更新全部文件 -->
